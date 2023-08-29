@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>korp01 - Miner un Bloc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/blocks">Blocks</a></li>
+                <li><a href="/mineBlock">Miner un Bloc</a></li>
+                <li><a href="/peers">Liste des Pairs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Miner un Nouveau Bloc</h1>
+        <form id="mine-block-form">
+            <label for="block-data">Données du Bloc :</label>
+            <input type="text" id="block-data" name="block-data" required>
+            <button id="mine-block-btn">Miner le Bloc</button>
+        </form>
+        <div class="loading-animation"></div>
+    </main>
+
+    <footer>
+        <img src="media/logo.png" alt="">
+        <div>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
